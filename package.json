@@ -1,0 +1,30 @@
+{
+  "name": "oakland-map",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
+    "lint": "npx eslint .",
+    "prepare": "husky install"
+  },
+  "description": "A minimal reference map of Oakland, California created using OpenStreetMap data and D3JS",
+  "author": "clhenrick <chrishenrick@gmail.com> (https://clhenrick.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.10.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.10",
+    "mapshaper": "^0.6.102",
+    "prettier": "^3.3.3"
+  },
+  "lint-staged": {
+    "*.{css,html,js}": [
+      "prettier --write ."
+    ],
+    "*.js": "eslint --fix"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": ["hillshade", "neatline"],
+  "ignoreWords": [
+    "residentialroads",
+    "tertiaryroads",
+    "secondaryroads",
+    "primaryroads",
+    "Henrick",
+		"mapshaper"
+  ],
+  "import": []
+}

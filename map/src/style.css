@@ -1,0 +1,36 @@
+html {
+  background-color: oklch(0.07 0 0);
+}
+
+html:has(body[data-theme="light"]) {
+  background-color: oklch(0.25 0 0);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+  height: auto;
+}
+
+canvas,
+svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+canvas#hillshade {
+  opacity: 0.15;
+  mix-blend-mode: hard-light;
+}
+
+body[data-theme="light"] canvas#hillshade {
+  opacity: 0.75;
+  mix-blend-mode: normal;
+}

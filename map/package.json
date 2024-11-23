@@ -1,0 +1,22 @@
+{
+  "name": "oakland-map-viz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "globals": "^15.10.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "colorjs.io": "^0.5.2",
+    "d3": "^7.9.0",
+    "query-string": "^9.1.0",
+    "topojson": "^3.0.2"
+  }
+}
