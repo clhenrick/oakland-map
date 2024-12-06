@@ -154,7 +154,7 @@ Map layers may be toggled using URL query parameters:
 Example:
 
 ```
-http://localhost:5173??theme=light&show_roads=true&show_labels=false&show_hillshade=false
+http://localhost:5173?theme=light&show_roads=true&show_labels=false&show_hillshade=false
 ```
 
 ## License
